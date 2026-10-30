@@ -1,11 +1,11 @@
 {
   "name": "@be/metronome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A metronome that keeps the beat with a click and dances along to it.",
   "main": "index.js",
   "config": { "standalone": true },
   "jibo": { "main": "index.html", "type": "asset-pack", "display-name": "metronome", "prompt": "Metronome" },
   "engines": { "node": ">=6.0" },
   "syncDependencies": ["jibo", "@be/be-framework"],
-  "scripts": { "test": "node tests/metronome.test.js" }
+  "scripts": { "test": "node tests/metronome.test.js && node tests/close-retry.test.js" }
 }
