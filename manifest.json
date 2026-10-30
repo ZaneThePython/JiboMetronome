@@ -1,0 +1,7 @@
+{
+    "name": "Metronome",
+    "version": "1.0.0",
+    "supported": "3.1.7",
+    "type": "skill",
+    "buttonColor": "#FFB347 #C46A10"
+}
